@@ -1,0 +1,18 @@
+{
+  "name": "com.rychkov.vr-accessibility-vision",
+  "version": "1.0.0",
+  "displayName": "VR Accessibility Vision",
+  "description": "This package lets users add labels ",
+  "unity": "6000.0.49f1",
+  "dependencies": {
+    "com.polaris.vr_accessibility_sdk": "0.1.0",
+ },
+ "keywords": [
+    "Image Classification",
+    "Accessibility",
+    "VR"
+  ],
+  "author": {
+    "name": "Yaroslav Rychkov"
+  }
+}
