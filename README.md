@@ -1,7 +1,7 @@
 # Automated Alt Text in Unity
 
 ## Dependancies
-[VR Accessibility SDK](https://github.com/JustinMorera/VR-Accessibility-SDK): Implementation of Accessibility Tags and Text-to-Speech (TTS). ____ (Name of my project) was built on the foundation of the VR Accessibility SDK and uses the Accessibility Tags class implemented by it. ____ was designed so it can be used by the PartialVis assitance that was implemented by the VR Accessibility SDK or to modify it. 
+[VR Accessibility SDK](https://github.com/JustinMorera/VR-Accessibility-SDK): Implementation of Accessibility Tags and Text-to-Speech (TTS). VR-Accessibility-Vision was built on the foundation of the VR Accessibility SDK and uses the Accessibility Tags class implemented by it. VR-Accessibility-Vision was designed so it can be used by the Partial Vision Assistance that was implemented by the VR Accessibility SDK or to modify it. 
 
 ## Requirements
 Tested in Unity 6.0. 
@@ -10,16 +10,16 @@ Tested in Unity 6.0.
 
 ### Manual Installation:
 1. Download project from GitHub.
-2. Add the _____ folder to the /Packages folder of your project. 
+2. Add the VR-Accessibility-Vision folder to the /Packages folder of your project. 
 3. Allow Unity to reload the project.
 
 ### Unity Package Manager:
 1. Navigate to 'Window -> Package Manager' using the tabs on the top of the Unity platform.
-2. In the Package Manager window, press the '+' icon on the top-left and press 'Add package from git URL...' and enter this project's URL, ______ (insert url).
+2. In the Package Manager window, press the '+' icon on the top-left and press 'Add package from git URL...' and enter this project's URL, 'https://github.com/YaroslavRychkov/VR-Accessibility-Vision.git)'.
 3. The package will automatically install.
 
 ## How to use
-1. Download VR Accessibility SDK and ____ (todo change to name of github project).
+1. Download VR Accessibility SDK and VR-Accessibility-Vision.
 2. In your open Unity Scene, create an empty GameObject named "LabelingScript". Attach the LabelingScript.cs to it.
 3. Drag and drop your pre-trained NN model (in onnx format) and the corresponding synset text file into the "Model Asset" and "Labels Map" fields. 
 4. Under 'Edit' -> 'Project settings' -> 'Tags & Layers', add a User Layer with the tag "Screenshot Layer"
