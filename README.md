@@ -15,7 +15,7 @@ Tested in Unity 6.0.
 
 ### Unity Package Manager:
 1. Navigate to 'Window -> Package Manager' using the tabs on the top of the Unity platform.
-2. In the Package Manager window, press the '+' icon on the top-left and press 'Add package from git URL...' and enter this project's URL, 'https://github.com/YaroslavRychkov/VR-Accessibility-Vision)'.
+2. In the Package Manager window, press the '+' icon on the top-left and press 'Add package from git URL...' and enter this project's URL, 'https://github.com/YaroslavRychkov/VR-Accessibility-Vision.git)'.
 3. The package will automatically install.
 
 ## How to use
