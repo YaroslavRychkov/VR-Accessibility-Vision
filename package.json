@@ -5,6 +5,15 @@
   "description": "This package lets users add labels ",
   "unity": "6000.0",
   "dependencies": {
+    "com.meta.xr.sdk.voice": "63.0.0",
+    "com.unity.inputsystem": "1.4.4",
+    "com.unity.mathematics": "1.2.6",
+    "com.unity.textmeshpro": "3.0.8",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.xr.core-utils": "2.3.0",
+    "com.unity.xr.interaction.toolkit": "2.0.4",
+    "com.unity.xr.legacyinputhelpers": "2.1.10",
+    "com.unity.ai.inference": "2.2.1",
     "com.polaris.vr_accessibility_sdk": "0.1.0"
  },
  "keywords": [
