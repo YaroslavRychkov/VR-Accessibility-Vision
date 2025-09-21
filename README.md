@@ -1,7 +1,7 @@
 # Automated Alt Text in Unity
 
 ## Dependancies
-[VR Accessibility SDK](https://github.com/JustinMorera/VR-Accessibility-SDK): Implementation of Accessibility Tags and Text-to-Speech (TTS). VR-Accessibility-Vision was built on the foundation of the VR Accessibility SDK and uses the Accessibility Tags class implemented by it. ____ was designed so it can be used by the PartialVis assitance that was implemented by the VR Accessibility SDK or to modify it. 
+[VR Accessibility SDK](https://github.com/JustinMorera/VR-Accessibility-SDK): Implementation of Accessibility Tags and Text-to-Speech (TTS). VR-Accessibility-Vision was built on the foundation of the VR Accessibility SDK and uses the Accessibility Tags class implemented by it. VR-Accessibility-Vision was designed so it can be used by the Partial Vision Assistance that was implemented by the VR Accessibility SDK or to modify it. 
 
 ## Requirements
 Tested in Unity 6.0. 
