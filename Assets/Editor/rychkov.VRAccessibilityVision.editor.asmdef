@@ -1,0 +1,23 @@
+{
+    "name": "rychkov_vr_accessibility_vision",
+    "rootNamespace": "",
+    "references": [
+        "GUID:11f2723350be5d849b92f6e562d50fbf",
+        "GUID:b0ff5371edfc5a54985ec34c5063b5f8",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:307ad6a77305913439daf66923079cba",
+        "GUID:8bbcefc153e1f1b4a98680670797dd16",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:63a57c8b658089e49a173b0f0c4870a7",
+        "GUID:35f6d358bbaf5ef4e845c21cee55891b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

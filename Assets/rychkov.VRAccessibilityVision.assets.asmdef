@@ -1,0 +1,16 @@
+{
+    "name": "package_assembly_vision",
+    "rootNamespace": "",
+    "references": [
+        "GUID:63a57c8b658089e49a173b0f0c4870a7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
