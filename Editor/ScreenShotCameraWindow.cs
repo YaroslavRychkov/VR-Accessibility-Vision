@@ -1,33 +1,16 @@
 using com.mukarillo.prominentcolor;
-using GLTF.Schema;
-using Newtonsoft.Json.Linq;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Runtime.Remoting.Channels;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 using Unity.Collections;
 using Unity.InferenceEngine;
 using UnityEditor;
-using UnityEditor.PackageManager;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.InputSystem.Utilities;
-using UnityEngine.Rendering;
-using UnityEngine.Timeline;
-using UnityEngine.UIElements;
 using UnityEssentials.Extensions;
-using static ScreenShotCameraWindow;
-using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
-using static UnityEngine.Rendering.DebugUI;
-using static UnityEngine.Rendering.DebugUI.Table;
 
 public class ScreenShotCameraWindow : EditorWindow
 {
@@ -342,7 +325,7 @@ public class ScreenShotCameraWindow : EditorWindow
                                     {
                                         Debug.LogWarning("Color not found for " + obj.name);
                                     }
-                                    //comment in to save all captures as pngs while running the classification - used as sanity check
+                                    //comment in with appropriate data path to save all captures as pngs while running the classification - used as sanity check
                                     //    bytes = resultTexture.EncodeToPNG();
                                     //    filename = Application.dataPath + "/VisionScene/Screenshots/" + counter + "_rotation_" + rot + "_classified_as_" + colorName + "_" + resultName + ".png";
                                     //    File.WriteAllBytes(filename, bytes);
@@ -378,13 +361,6 @@ public class ScreenShotCameraWindow : EditorWindow
 
                             var tupleWithMaxItem1 = valueList.OrderByDescending(x => x.Item1).First();
                             var highestValueClassification = colorName + tupleWithMaxItem1.Item2;
-
-                                bytes = captureTexture.EncodeToPNG();
-                                filename = Application.dataPath + "/VisionScene/Screenshots/" + counter + "mostCommonClassification" + "_classified_as_" + mostCommonClassification + ".png";
-                                File.WriteAllBytes(filename, bytes);
-
-                                filename = Application.dataPath + "/VisionScene/Screenshots/" + counter + "highestValueClassification" + "_classified_as_" + highestValueClassification + ".png";
-                                File.WriteAllBytes(filename, bytes);
 
                                 //create a new LabeledObject and add it to the list to be used in the GUI confirmation window
                                 labeledObjects.Add(new LabeledObject(obj, captureTextures, mostCommonClassification, mostCommonCount, highestValueClassification));

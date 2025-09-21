@@ -15,8 +15,8 @@ public class LabelingScript : MonoBehaviour
     public string delimiter_1;
     public string delimiter_2;
     [Header("Expected color range for model (optional)")]
-    public int min;
-    public int max;
+    public int min = 0;
+    public int max = 1;
 
     [Header("Additional options")]
     public Vector3 customRotationDegrees;
